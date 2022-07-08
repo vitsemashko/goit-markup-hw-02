@@ -157,9 +157,8 @@ ul {
 }
 .team-person,
 .team-role {
-	background: var(--bcg-color-one);
+	background-color: var(--bcg-color-one);
 }
-
 .team-person {
 	font-style: normal;
 	font-weight: 500;
