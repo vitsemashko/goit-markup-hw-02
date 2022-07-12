@@ -21,13 +21,13 @@
 	--address-link-color: rgba(255, 255, 255, 0.6);
 }
 body {
-	font-family: "Roboto", "sans-serif";
+	font-family: "Roboto", sans-serif;
 	background-color: var(--bcg-color-one);
 }
-a {
+.link {
 	text-decoration: none;
 }
-ul {
+.list {
 	list-style-type: none;
 }
 .logo-one {
@@ -48,7 +48,7 @@ ul {
 	letter-spacing: 0.03em;
 	color: var(--logo-black);
 }
-.site-nav a {
+.site-nav .link {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
@@ -56,15 +56,15 @@ ul {
 	letter-spacing: 0.02em;
 	color: var(--primary-color);
 }
-.site-nav a:hover,
-.site-nav a:focus {
+.site-nav .link:hover,
+.site-nav .link:focus {
 	color: var(--accent-color);
 }
-.site-nav .curent {
+#curent {
 	color: var(--accent-color);
 }
 
-.contacts a {
+.contacts .link {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
@@ -72,8 +72,8 @@ ul {
 	letter-spacing: 0.02em;
 	color: var(--secondary-color);
 }
-.contacts a:hover,
-.contacts a:focus {
+.contacts .link:hover,
+.contacts .link:focus {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
@@ -175,7 +175,7 @@ ul {
 	letter-spacing: 0.03em;
 	color: var(--secondary-color);
 }
-footer {
+.page-footer {
 	background-color: var(--bcg-color-two);
 }
 .logo-second {
@@ -187,14 +187,7 @@ footer {
 	letter-spacing: 0.03em;
 	color: var(--bcg-color-one);
 }
-.physical-address {
-	font-style: normal;
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 1.71;
-	letter-spacing: 0.03em;
-	color: var(--bcg-color-one);
-}
+
 address a {
 	font-style: normal;
 	font-weight: 400;
@@ -206,6 +199,14 @@ address a {
 address a:hover,
 address a:focus {
 	color: var(--accent-color);
+}
+.physical-address {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	color: var(--bcg-color-one);
 }
 .portfolio-btn {
 	font-family: inherit;
