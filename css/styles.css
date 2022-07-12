@@ -30,6 +30,19 @@ body {
 .list {
 	list-style-type: none;
 }
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0, 0, 0, 0);
+	overflow: hidden;
+}
+/*Logo*/
 .logo-one {
 	font-family: "Raleway";
 	font-style: normal;
@@ -48,6 +61,7 @@ body {
 	letter-spacing: 0.03em;
 	color: var(--logo-black);
 }
+/*Site nav*/
 .site-nav .link {
 	font-style: normal;
 	font-weight: 500;
@@ -63,7 +77,7 @@ body {
 #curent {
 	color: var(--accent-color);
 }
-
+/*Contacts*/
 .contacts .link {
 	font-style: normal;
 	font-weight: 500;
@@ -81,6 +95,7 @@ body {
 	letter-spacing: 0.02em;
 	color: var(--accent-color);
 }
+/*Studio hero*/
 .studio-hero-title {
 	font-style: normal;
 	font-weight: 900;
@@ -109,18 +124,7 @@ body {
 	font-family: inherit;
 	background-color: var(--btn-secondary-accent-color);
 }
-.visually-hidden {
-	position: absolute;
-	width: 1px;
-	height: 1px;
-	margin: -1px;
-	border: 0;
-	padding: 0;
-	white-space: nowrap;
-	clip-path: inset(100%);
-	clip: rect(0, 0, 0, 0);
-	overflow: hidden;
-}
+/*Features*/
 .features-title-second {
 	font-style: normal;
 	font-weight: 700;
@@ -136,6 +140,7 @@ body {
 	letter-spacing: 0.03em;
 	color: var(--secondary-color);
 }
+/*What do we do*/
 .what-do-we-do-title {
 	font-style: normal;
 	font-weight: 700;
@@ -144,6 +149,7 @@ body {
 	letter-spacing: 0.03em;
 	color: var(--primary-color);
 }
+/*Team*/
 .team {
 	background-color: var(--bcg-color-four);
 }
@@ -175,6 +181,7 @@ body {
 	letter-spacing: 0.03em;
 	color: var(--secondary-color);
 }
+/*Footer*/
 .page-footer {
 	background-color: var(--bcg-color-two);
 }
@@ -187,8 +194,7 @@ body {
 	letter-spacing: 0.03em;
 	color: var(--bcg-color-one);
 }
-
-address a {
+.here .link {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
@@ -196,11 +202,11 @@ address a {
 	letter-spacing: 0.03em;
 	color: var(--address-link-color);
 }
-address a:hover,
-address a:focus {
+.here .link:hover,
+.here .link:focus {
 	color: var(--accent-color);
 }
-.physical-address {
+.list .physical-address {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
@@ -208,6 +214,7 @@ address a:focus {
 	letter-spacing: 0.03em;
 	color: var(--bcg-color-one);
 }
+/*Portfolio filter*/
 .portfolio-btn {
 	font-family: inherit;
 	font-style: normal;
@@ -247,6 +254,7 @@ address a:focus {
 	letter-spacing: 0.03em;
 	color: var(--primary-color);
 }
+/*Portfolio hero*/
 .portfolio-hero-title {
 	font-style: normal;
 	font-weight: 700;
