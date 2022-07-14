@@ -96,6 +96,9 @@ body {
 	color: var(--accent-color);
 }
 /*Studio hero*/
+.studio-hero {
+	background-color: var(--bcg-color-two);
+}
 .studio-hero-title {
 	font-style: normal;
 	font-weight: 900;
@@ -105,7 +108,6 @@ body {
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 	color: var(--bcg-color-one);
-	background-color: var(--bcg-color-two);
 }
 .studio-hero-btn {
 	font-family: inherit;
@@ -161,8 +163,7 @@ body {
 	letter-spacing: 0.03em;
 	color: var(--primary-color);
 }
-.team-person,
-.team-role {
+.team-item {
 	background-color: var(--bcg-color-one);
 }
 .team-person {
@@ -231,28 +232,8 @@ body {
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-	font-family: inherit;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.625;
-	text-align: center;
-	letter-spacing: 0.03em;
 	color: var(--bcg-color-one);
 	background-color: var(--accent-color);
-	cursor: pointer;
-	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-		0px 2px 2px rgba(0, 0, 0, 0.12);
-	border-radius: 4px;
-}
-.portfolio-btn {
-	font-style: normal;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.625;
-	text-align: center;
-	letter-spacing: 0.03em;
-	color: var(--primary-color);
 }
 /*Portfolio hero*/
 .portfolio-hero-title {
