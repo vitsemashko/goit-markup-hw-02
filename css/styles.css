@@ -44,7 +44,7 @@ body {
 }
 /*Logo*/
 .logo-one {
-	font-family: "Raleway";
+	font-family: "Raleway", sans-serif;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 26px;
@@ -53,7 +53,7 @@ body {
 	color: var(--accent-color);
 }
 .logo-two {
-	font-family: "Raleway";
+	font-family: "Raleway", sans-serif;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 26px;
@@ -186,7 +186,7 @@ body {
 	background-color: var(--bcg-color-two);
 }
 .logo-second {
-	font-family: "Raleway";
+	font-family: "Raleway", sans-serif;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 26px;
